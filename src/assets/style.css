@@ -1,0 +1,80 @@
+.list {
+  box-sizing: border-box;
+  padding: 0 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.list :last-child {
+  border-bottom: 0;
+}
+
+.cell {
+  display: flex;
+  box-sizing: border-box;
+  height: 60px;
+  padding: 15px;
+  border-bottom:1px solid #eaebef;
+}
+
+.cell__bd {
+  flex: 1;
+}
+
+.title {
+  width: 130px;
+}
+
+.price {
+  color: orange;
+  width: 130px;
+  font-weight: 700;
+}
+
+.count {
+  color: orange;
+  font-weight: 700;
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  color: white;
+  background-color: #409EFF;
+}
+
+.btn+.btn {
+  margin-left: 15px;
+}
+
+.btn-del {
+  background-color: #F56C6C;
+}
+
+.toobar {
+  padding: 15px;
+  margin-top: 15px;
+  text-align: right;
+  height: 32px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  display: flex;
+}
+
+.payMoney {
+  color: orange;
+  text-align: left;
+  font-weight: 700;
+  flex: 1;
+}
+
+.margin-top20 {
+  margin-top: 20;
+}
+
+.empty {
+  padding: 20px;
+  margin: 20px;
+}
